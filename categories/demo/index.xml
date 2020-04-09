@@ -2,21 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo | Peter Donhauser</title>
-    <link>https://pwdonh.github.io/categories/demo/</link>
-      <atom:link href="https://pwdonh.github.io/categories/demo/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/demo/</link>
+      <atom:link href="/categories/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Demo</title>
-      <link>https://pwdonh.github.io/categories/demo/</link>
+      <link>/categories/demo/</link>
     </image>
     
     <item>
+      <title>Distinctive language cues</title>
+      <link>/post/language-cues/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/language-cues/</guid>
+      <description>&lt;!-- ### Predictive language model --&gt;
+&lt;!-- # Distinctive language cues --&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/423.svg?share_key=63uc6T5TRi55P4APP0uXo7&#34; alt=&#34;spec&#34;&gt;&lt;/p&gt;
+&lt;audio controls=&#34;controls&#34;&gt;
+  &lt;source type=&#34;audio/mp3&#34; src=&#34;//www.bic.mni.mcgill.ca/~peterd/commonvoice.wav&#34;&gt;&lt;/source&gt;
+  &lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR
+spec(&amp;lt;font size=2&amp;gt;Spectrogram) --&amp;gt; conv[&amp;lt;font size=2&amp;gt;Convolutional&amp;lt;br&amp;gt;layers]
+conv --&amp;gt; rnn1[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 1]
+rnn1 --&amp;gt; cphon((&amp;lt;font size=2&amp;gt;Phonemes))
+rnn1 --&amp;gt; rnn2[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 2]
+rnn2 --&amp;gt; cword((&amp;lt;font size=2&amp;gt;Words))
+classDef whiteBox fill:#ddd,stroke:#888,stroke-width:2px;
+class spec,conv,rnn1,rnn2,cphon,cword whiteBox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/35.embed?share_key=eHo0sYTW19TP7Iiq36Y6SJ&#34;&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/123.embed?share_key=FXiioKjkV2XDozV8g2B3wa&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/490.png?share_key=1trE7mZTrk7ipPti6FdzuW&#34; alt=&#34;word_rep&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/490.embed?share_key=1trE7mZTrk7ipPti6FdzuW&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR
+spec(&amp;lt;font size=2&amp;gt;Spectrogram) --&amp;gt; conv[&amp;lt;font size=2&amp;gt;Convolutional&amp;lt;br&amp;gt;layers]
+conv --&amp;gt; rnn1[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 1]
+rnn1 --&amp;gt; rnn2[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 2]
+rnn1 --&amp;gt; clang((&amp;lt;font size=2&amp;gt;Language))
+rnn2 --&amp;gt; clang
+classDef whiteBox fill:#ddd,stroke:#888,stroke-width:2px;
+class spec,conv,rnn1,rnn2,cat,clang whiteBox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/408.svg?share_key=T40CVRpBdyN1J2vZ79N9RP&#34; alt=&#34;spec_full_context&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/408.embed?share_key=T40CVRpBdyN1J2vZ79N9RP&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;p&gt;We can see that the network has a memory: While initially there is some uncertainty,&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/328.svg?share_key=vST8brpuZBeI84rWtWs6dn&#34; alt=&#34;spec_break_context&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/328.embed?share_key=vST8brpuZBeI84rWtWs6dn&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;!-- ![lang_accuracy](//plotly.bic.mni.mcgill.ca/~pdonha/400.svg?share_key=IHIVA9GlKzWob9tBVgpICH) --&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;450&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/400.embed?share_key=IHIVA9GlKzWob9tBVgpICH&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;What are phoneme cues for language discrimination&lt;/p&gt;
+&lt;!-- ![distinct_phones](//plotly.bic.mni.mcgill.ca/~pdonha/205.svg?share_key=hy3sCKAp2Ki7aYaOVAfuTg) --&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/205.embed?share_key=hy3sCKAp2Ki7aYaOVAfuTg&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/503.svg?share_key=DhekfI2t00bALgLA5dcSto&#34; alt=&#34;distinct_words&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Predictive language model</title>
-      <link>https://pwdonh.github.io/post/language-model/</link>
+      <link>/post/language-model/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/post/language-model/</guid>
+      <guid>/post/language-model/</guid>
       <description>&lt;!-- ### Predictive language model --&gt;
 &lt;p&gt;The following app demonstrates outputs of the predictive language model described in our recent paper 
 &lt;a href=&#34;../../publication/two-distinct-timescales&#34;&gt;Two distinct neural time scales for predictive speech processing.&lt;/a&gt;&lt;/p&gt;
@@ -35,9 +83,9 @@
     
     <item>
       <title>Spectral analysis lecture</title>
-      <link>https://pwdonh.github.io/post/spectral-proc-lecture/</link>
+      <link>/post/spectral-proc-lecture/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/post/spectral-proc-lecture/</guid>
+      <guid>/post/spectral-proc-lecture/</guid>
       <description>&lt;!-- ### Predictive language model --&gt;
 &lt;p&gt;Here is the video (and 
 &lt;a href=&#34;https://www.mcgill.ca/bic/files/bic/spec_decomp_nov2015_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slides&lt;/a&gt;) for a lecture I gave at the MEG@McGill Comprehensive Training.&lt;/p&gt;

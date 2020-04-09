@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peter Donhauser</title>
-    <link>https://pwdonh.github.io/</link>
-      <atom:link href="https://pwdonh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Donhauser</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Peter Donhauser</title>
-      <link>https://pwdonh.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>https://pwdonh.github.io/courses/example/example1/</link>
+      <link>/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://pwdonh.github.io/courses/example/example1/</guid>
+      <guid>/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>https://pwdonh.github.io/courses/example/example2/</link>
+      <link>/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://pwdonh.github.io/courses/example/example2/</guid>
+      <guid>/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>Example Talk</title>
-      <link>https://pwdonh.github.io/talk/example/</link>
+      <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/talk/example/</guid>
+      <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -77,10 +77,58 @@
     </item>
     
     <item>
+      <title>Distinctive language cues</title>
+      <link>/post/language-cues/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/language-cues/</guid>
+      <description>&lt;!-- ### Predictive language model --&gt;
+&lt;!-- # Distinctive language cues --&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/423.svg?share_key=63uc6T5TRi55P4APP0uXo7&#34; alt=&#34;spec&#34;&gt;&lt;/p&gt;
+&lt;audio controls=&#34;controls&#34;&gt;
+  &lt;source type=&#34;audio/mp3&#34; src=&#34;//www.bic.mni.mcgill.ca/~peterd/commonvoice.wav&#34;&gt;&lt;/source&gt;
+  &lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR
+spec(&amp;lt;font size=2&amp;gt;Spectrogram) --&amp;gt; conv[&amp;lt;font size=2&amp;gt;Convolutional&amp;lt;br&amp;gt;layers]
+conv --&amp;gt; rnn1[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 1]
+rnn1 --&amp;gt; cphon((&amp;lt;font size=2&amp;gt;Phonemes))
+rnn1 --&amp;gt; rnn2[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 2]
+rnn2 --&amp;gt; cword((&amp;lt;font size=2&amp;gt;Words))
+classDef whiteBox fill:#ddd,stroke:#888,stroke-width:2px;
+class spec,conv,rnn1,rnn2,cphon,cword whiteBox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/35.embed?share_key=eHo0sYTW19TP7Iiq36Y6SJ&#34;&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/123.embed?share_key=FXiioKjkV2XDozV8g2B3wa&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/490.png?share_key=1trE7mZTrk7ipPti6FdzuW&#34; alt=&#34;word_rep&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/490.embed?share_key=1trE7mZTrk7ipPti6FdzuW&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR
+spec(&amp;lt;font size=2&amp;gt;Spectrogram) --&amp;gt; conv[&amp;lt;font size=2&amp;gt;Convolutional&amp;lt;br&amp;gt;layers]
+conv --&amp;gt; rnn1[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 1]
+rnn1 --&amp;gt; rnn2[&amp;lt;font size=2&amp;gt;Recurrent&amp;lt;br&amp;gt;layer 2]
+rnn1 --&amp;gt; clang((&amp;lt;font size=2&amp;gt;Language))
+rnn2 --&amp;gt; clang
+classDef whiteBox fill:#ddd,stroke:#888,stroke-width:2px;
+class spec,conv,rnn1,rnn2,cat,clang whiteBox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/408.svg?share_key=T40CVRpBdyN1J2vZ79N9RP&#34; alt=&#34;spec_full_context&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/408.embed?share_key=T40CVRpBdyN1J2vZ79N9RP&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;p&gt;We can see that the network has a memory: While initially there is some uncertainty,&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/328.svg?share_key=vST8brpuZBeI84rWtWs6dn&#34; alt=&#34;spec_break_context&#34;&gt;&lt;/p&gt;
+&lt;!-- &lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/328.embed?share_key=vST8brpuZBeI84rWtWs6dn&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;!-- ![lang_accuracy](//plotly.bic.mni.mcgill.ca/~pdonha/400.svg?share_key=IHIVA9GlKzWob9tBVgpICH) --&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;450&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/400.embed?share_key=IHIVA9GlKzWob9tBVgpICH&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;What are phoneme cues for language discrimination&lt;/p&gt;
+&lt;!-- ![distinct_phones](//plotly.bic.mni.mcgill.ca/~pdonha/205.svg?share_key=hy3sCKAp2Ki7aYaOVAfuTg) --&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;430&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/205.embed?share_key=hy3sCKAp2Ki7aYaOVAfuTg&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;//plotly.bic.mni.mcgill.ca/~pdonha/503.svg?share_key=DhekfI2t00bALgLA5dcSto&#34; alt=&#34;distinct_words&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Two Distinct Neural Timescales for Predictive Speech Processing</title>
-      <link>https://pwdonh.github.io/publication/two-distinct-timescales/</link>
+      <link>/publication/two-distinct-timescales/</link>
       <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/publication/two-distinct-timescales/</guid>
+      <guid>/publication/two-distinct-timescales/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -100,9 +148,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://pwdonh.github.io/slides/example/</link>
+      <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/slides/example/</guid>
+      <guid>/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -232,10 +280,28 @@ Three
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Imaging of neural oscillations with embedded inferential and group prevalence statistics</title>
-      <link>https://pwdonh.github.io/publication/imaging-plos/</link>
+      <link>/publication/imaging-plos/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/publication/imaging-plos/</guid>
+      <guid>/publication/imaging-plos/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -255,17 +321,17 @@ Three
     
     <item>
       <title>External Project</title>
-      <link>https://pwdonh.github.io/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>https://pwdonh.github.io/project/internal-project/</link>
+      <link>/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/project/internal-project/</guid>
+      <guid>/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -276,9 +342,9 @@ Three
     
     <item>
       <title>Predictive language model</title>
-      <link>https://pwdonh.github.io/post/language-model/</link>
+      <link>/post/language-model/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/post/language-model/</guid>
+      <guid>/post/language-model/</guid>
       <description>&lt;!-- ### Predictive language model --&gt;
 &lt;p&gt;The following app demonstrates outputs of the predictive language model described in our recent paper 
 &lt;a href=&#34;../../publication/two-distinct-timescales&#34;&gt;Two distinct neural time scales for predictive speech processing.&lt;/a&gt;&lt;/p&gt;
@@ -297,9 +363,9 @@ Three
     
     <item>
       <title>Spectral analysis lecture</title>
-      <link>https://pwdonh.github.io/post/spectral-proc-lecture/</link>
+      <link>/post/spectral-proc-lecture/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/post/spectral-proc-lecture/</guid>
+      <guid>/post/spectral-proc-lecture/</guid>
       <description>&lt;!-- ### Predictive language model --&gt;
 &lt;p&gt;Here is the video (and 
 &lt;a href=&#34;https://www.mcgill.ca/bic/files/bic/spec_decomp_nov2015_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slides&lt;/a&gt;) for a lecture I gave at the MEG@McGill Comprehensive Training.&lt;/p&gt;
@@ -314,9 +380,9 @@ Three
     
     <item>
       <title>The implicit need for power predicts recognition speed for dynamic changes in facial expressions of emotion</title>
-      <link>https://pwdonh.github.io/publication/faces_motive/</link>
+      <link>/publication/faces_motive/</link>
       <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/publication/faces_motive/</guid>
+      <guid>/publication/faces_motive/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -336,9 +402,9 @@ Three
     
     <item>
       <title>Local and long-range phase-amplitude coupling in a cortical spiking network model</title>
-      <link>https://pwdonh.github.io/publication/cns_pac/</link>
+      <link>/publication/cns_pac/</link>
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/publication/cns_pac/</guid>
+      <guid>/publication/cns_pac/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -358,9 +424,9 @@ Three
     
     <item>
       <title>Biasing the perception of ambiguous vocal affect: a TMS study on frontal asymmetry.</title>
-      <link>https://pwdonh.github.io/publication/voices_tms/</link>
+      <link>/publication/voices_tms/</link>
       <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://pwdonh.github.io/publication/voices_tms/</guid>
+      <guid>/publication/voices_tms/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

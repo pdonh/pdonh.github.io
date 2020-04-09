@@ -3,192 +3,207 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pwdonh.github.io/courses/example/example1/</loc>
+    <loc>/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/courses/example/</loc>
+    <loc>/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/courses/example/example2/</loc>
+    <loc>/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/talk/example/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/admin/</loc>
+    <loc>/authors/admin/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/demo/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/language-cues/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication_types/2/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/</loc>
+    <loc>/publication/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication_types/</loc>
+    <loc>/authors/sylvain-baillet/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication/</loc>
+    <loc>/publication/two-distinct-timescales/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/sylvain-baillet/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/publication/two-distinct-timescales/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/esther-florin/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/esther-florin/</loc>
     <lastmod>2018-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication/imaging-plos/</loc>
+    <loc>/publication/imaging-plos/</loc>
     <lastmod>2018-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/tags/deep-learning/</loc>
+    <loc>/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/tags/demo/</loc>
+    <loc>/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/tags/</loc>
+    <loc>/post/language-model/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/tags/academic/</loc>
+    <loc>/post/spectral-proc-lecture/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/categories/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/categories/demo/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/post/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/post/language-model/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/post/spectral-proc-lecture/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pwdonh.github.io/authors/andreas-g.-rosch/</loc>
+    <loc>/authors/andreas-g.-rosch/</loc>
     <lastmod>2015-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/oliver-c.-schultheiss/</loc>
+    <loc>/authors/oliver-c.-schultheiss/</loc>
     <lastmod>2015-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication/faces_motive/</loc>
+    <loc>/publication/faces_motive/</loc>
     <lastmod>2015-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication_types/1/</loc>
+    <loc>/publication_types/1/</loc>
     <lastmod>2014-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication/cns_pac/</loc>
+    <loc>/publication/cns_pac/</loc>
     <lastmod>2014-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/publication/voices_tms/</loc>
+    <loc>/publication/voices_tms/</loc>
     <lastmod>2013-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/marie-helene-grosbras/</loc>
+    <loc>/authors/marie-helene-grosbras/</loc>
     <lastmod>2013-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/authors/pascal-belin/</loc>
+    <loc>/authors/pascal-belin/</loc>
     <lastmod>2013-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pwdonh.github.io/courses/</loc>
+    <loc>/courses/</loc>
   </url>
   
 </urlset>
